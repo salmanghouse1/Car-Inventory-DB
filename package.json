@@ -1,6 +1,6 @@
 {
-    "name": "project_2_group_5",
-    "version": "1.0.0",
+    "name": "car_inventory_dB",
+    "version": "1.0.1",
     "description": "",
     "main": "server.js",
     "scripts": {
@@ -40,7 +40,7 @@
         "sequelize-cli": "^6.4.1"
     },
     "engines":{
-        "node":"16.3.1",
-        "npm":"8.1.2"
+        "node":"v16.13.1",
+        "npm":"v8.1.2"
     }
 }

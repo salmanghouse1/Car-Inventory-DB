@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,23 +41,13 @@
       </nav>
 
       <!-- hero is smaller -->
-      <section class="hero is-large is-dark" style="
-	width: 100%;
-    background-image: url(./images/cars.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="hero-body">
-          <p class="title">
-            CAR INVENTORY DATABASE
-          </p>
-          <p class="subtitle">
-            Lets Drive!
-          </p>
-        </div>
-      </section></header>
+    <main id="body" class="section">
+      <div class="container column is-16">{{{ body }}}</div>
+    </main>
+    </header>
     {{else}}
             <!-- button is LOGIN -->
+            <header>
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">
@@ -70,40 +59,20 @@
           </div>
         </div>
       </nav>
-
-      <!-- hero is bigger -->
-      <section class="hero is-large is-dark" style="
-	width: 100%;
-    background-image: url(./images/cars.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="hero-body">
-          <p class="title">
-            CAR INVENTORY DATABASE
-          </p>
-          <p class="subtitle">
-            Lets Drive!
-          </p>
-          <div class="buttons">
-                  <a href="/login" class="button is-link">Login</a>
-            
-                </div>
-        </div>
-      </section>
+      
+      <!-- hero is smaller -->
+    <main id="body" class="section">
+      <div class="container column is-16">{{{ body }}}</div>
+    </main>
     </header>
     {{/if}}
 
-    <!-- main body content -->
-    <main id="body" class="section">
-      <div class="container column is-8">{{{ body }}}</div>
-    </main>
     <div class="spacer"></div>
 
     <!-- footer -->
     <footer class="footer">
       <div class="content has-text-centered">
-        <p><strong>Made By</strong><a href="https://github.com/mikekhoury135/Project_2_Group_5"><strong>Group</strong></a></p>
+        <p><strong>Made By</strong><a href="https://github.com/salmanghouse1/Car-Inventory-DB"><strong></strong></a></p>
       </div>
     </footer>
   </div>
