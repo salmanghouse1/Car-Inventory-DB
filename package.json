@@ -1,6 +1,6 @@
 {
-    "name": "project_2_group_5",
-    "version": "1.0.0",
+    "name": "car_inventory_dB",
+    "version": "1.0.1",
     "description": "",
     "main": "server.js",
     "scripts": {
