@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 2 Group 5</title>
+  <title>Car Inventory DB</title>
   <!-- BULMA Framework -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <!-- custom css -->
@@ -42,17 +42,21 @@
       </nav>
 
       <!-- hero is smaller -->
-      <section class="hero is-medium is-dark">
+      <section class="hero is-large is-dark" style="
+	width: 100%;
+    background-image: url(./images/cars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
         <div class="hero-body">
           <p class="title">
-            Project 2
+            CAR INVENTORY DATABASE
           </p>
           <p class="subtitle">
-            Group 5
+            Lets Drive!
           </p>
         </div>
-      </section>
-    </header>
+      </section></header>
     {{else}}
             <!-- button is LOGIN -->
             <div class="navbar-end">
@@ -81,6 +85,10 @@
           <p class="subtitle">
             Lets Drive!
           </p>
+          <div class="buttons">
+                  <a href="/login" class="button is-link">Login</a>
+            
+                </div>
         </div>
       </section>
     </header>
@@ -95,7 +103,7 @@
     <!-- footer -->
     <footer class="footer">
       <div class="content has-text-centered">
-        <p><strong>Project 2</strong> by <a href="https://github.com/mikekhoury135/Project_2_Group_5"><strong>Group 5</strong></a></p>
+        <p><strong>Made By</strong><a href="https://github.com/mikekhoury135/Project_2_Group_5"><strong>Group</strong></a></p>
       </div>
     </footer>
   </div>
