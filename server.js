@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 const session = require("express-session");
 const exphbs = require("express-handlebars");
-var favicon = require("serve-favicon");
+// var favicon = require("serve-favicon");
 const routes = require("./controllers");
 const helpers = require("./utils/helpers");
 
@@ -10,7 +10,6 @@ const sequelize = require("./config/connection");
 
 const app = express();
 
-app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
 const PORT = process.env.PORT || 3000;
 
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
