@@ -41,21 +41,9 @@
       </nav>
 
       <!-- hero is smaller -->
-      <section class="hero is-large is-dark" style="
-	width: 100%;
-    background-image: url(./images/cars.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="hero-body">
-          <p class="title">
-            CAR INVENTORY DATABASE
-          </p>
-          <p class="subtitle">
-            Lets Drive!
-          </p>
-        </div>
-      </section></header>
+    <main id="body" class="section">
+      <div class="container column is-8">{{{ body }}}</div>
+    </main>
     {{else}}
             <!-- button is LOGIN -->
             <div class="navbar-end">
@@ -69,6 +57,9 @@
           </div>
         </div>
       </nav>
+    <main id="body" class="section">
+      <div class="container column is-8">{{{ body }}}</div>
+    </main>
 
       <!-- hero is bigger -->
       <section class="hero is-large is-dark" style="
