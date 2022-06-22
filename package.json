@@ -33,7 +33,8 @@
         "seed": "^0.4.4",
         "sequelize": "^6.14.1",
         "sequelize-connect": "^2.1.2",
-        "sequelizer": "^1.1.4"
+        "sequelizer": "^1.1.4",
+        "serve-favicon": "^2.5.0"
     },
     "devDependencies": {
         "sequelize-cli": "^6.4.1"
