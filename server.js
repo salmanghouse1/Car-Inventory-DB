@@ -7,6 +7,7 @@ const routes = require("./controllers");
 const helpers = require("./utils/helpers");
 
 const sequelize = require("./config/connection");
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
@@ -36,5 +37,5 @@ app.use(routes);
 
 // turn on connection to db and server
 sequelize.sync({ force: false }).then(() => {
-  app.listen(process.env.PORT || 3000, () => console.log("Now listening"));
+  app.listen(PORT, () => console.log("Now listening"));
 });
