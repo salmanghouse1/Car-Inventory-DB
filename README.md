@@ -1,8 +1,8 @@
 # Car Inventory DB
 
-## Description 
+## Description
 
-*A Car Inventory DB app allows users to log in, sign up, view, years , make and color of cars.
+\*A Car Inventory DB app allows users to log in, sign up, view, years , make and color of cars.
 
 ##Tools Usage
 
@@ -30,16 +30,19 @@
 - If on Heroku, all you have to do is login.
 
 ## Contributors of this Project
-- Salman Ghouse: github.com/salmanghouse1
-- Mekonnen Mohammed 
-- Mike Khory
-and other group members.
 
+- Salman Ghouse: github.com/salmanghouse1
+- Mekonnen Mohammed
+- Mike Khory
+  and other group members.
 
 ## Usage
-* npm run seed, then npm start
 
-
+- npm run seed, then npm start
 
 Change path of images
 Get data to forms
+
+# Deployed to Heroku
+
+- https://quiet-river-54328.herokuapp.com/
