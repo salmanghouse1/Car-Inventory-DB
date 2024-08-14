@@ -13,8 +13,6 @@
 - Node.js
 - Express
 - Express-Handlebars
-- MySQL2
-- Sequelize
 - Dotenv
 - Heroku
 
